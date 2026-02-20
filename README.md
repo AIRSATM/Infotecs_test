@@ -35,7 +35,7 @@
 находятся в одной папке.
 
 Шаг 2. Установите зависимости:
-pip install -r requirements.txt
+pip install pytest requests pytest-html
 
 Шаг 3. Запустите тесты с генерацией отчёта:
 pytest test_webcalculator.py -v --html=report.html --self-contained-html
